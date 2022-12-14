@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    background-color: bisque;
+    color: red;
+}
+p{
+    color: red;
+}
+contener{
+    padding: 20rem;
+    margin: 20rem;
+}
+.box1{
+    background-color: tomato;
+    width: 90vw;
+    height: 15vh;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    border: 2px solid black;
+    margin: 3rem;
+}
+.box2{
+    background-color: tomato;
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid black;
+    margin: 3rem;
+}

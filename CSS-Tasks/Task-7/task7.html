@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-7</title>
+    <style>
+        .space {
+            background-color: brown;
+        }
+
+        .space h1 {
+            background-color: beige;
+        }
+
+        .space p {
+            background-color: aqua;
+        }
+
+        .space+h1 {
+            background-color: blueviolet;
+        }
+
+        .space~h1 {
+            background-color: blueviolet;
+        }
+
+        .psuedo p::first-line {
+            color: red;
+        }
+
+        .psuedo p::first-letter {
+            font-size: 4rem;
+            color: violet;
+        }
+
+        form li:nth-child(3) {
+            background-color: chartreuse;
+        }
+
+        li:last-child {
+            background-color: chartreuse;
+        }
+
+        .form {
+            background-color: tomato;
+            padding: 20px;
+        }
+
+        .form input {
+            width: 40%;
+            padding: 10px;
+            background-color: aliceblue;
+            outline: none;
+
+
+        }
+
+        .form [type="button"] {
+            width: 15%;
+            font-weight: 700;
+            font-size: 16px;
+            background-color: black;
+            color: white;
+        }
+
+        .form [type="button"] :hover {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="space">
+        <h1>hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h1>hello</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+    <div class="space">
+        <h1>hello</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <h1>hello</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+    </div>
+
+    <h1>Lorem ipsum dolor sit.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <div>
+        <h1>hello</h1>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, hic saepe. Incidunt ducimus voluptate
+        officiis illum minus sequi nam corrupti, ut enim a, ullam assumenda aperiam sunt vitae sapiente velit vero.
+        Saepe rem ut culpa eveniet quasi quo quos ullam ipsa laborum, impedit quis quisquam ab atque repellendus magnam
+        quia!</p>
+    <h1>hhh</h1>
+    <hr>
+    <hr>
+    <div class="psuedo">
+        <h1>Psuedo Classes & Elements</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ab maxime, nobis omnis reprehenderit nesciunt
+            libero ex cum nemo possimus voluptate consequatur adipisci sit ea! Id incidunt voluptates molestias omnis!
+        </p>
+    </div>
+
+    <form>
+
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+
+        <div class="form">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Your Password">
+            <input type="button" value="Login">
+        </div>
+    </form>
+</body>
+
+</html>

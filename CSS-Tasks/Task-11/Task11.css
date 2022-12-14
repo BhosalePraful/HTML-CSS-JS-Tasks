@@ -1,0 +1,48 @@
+body {
+    background-color:chocolate;
+}
+
+h1, h2 {
+    font-size: 3rem;
+}
+
+h3, h4{
+    visibility: hidden;
+    font-size: 3rem;
+}
+
+/* Tablet Media Query */
+
+@media only screen and (max-width: 820px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2{
+        display: none;
+    }
+    h3{
+     visibility: visible;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: rgb(228, 80, 60);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2, h3 {
+        display: none;
+    }
+    h4{
+        visibility: visible;
+    }
+}

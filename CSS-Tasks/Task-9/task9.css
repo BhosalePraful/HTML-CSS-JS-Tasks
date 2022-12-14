@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(255, 238, 127);
+    font-size: 15px;
+}
+
+#px {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.emparent {
+    width: 100%;
+    height: 200px;
+    font-size: 10px;
+    background-color: aqua;
+}
+
+.em {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.em1 {
+    background-color: crimson;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.remparent {
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+    background-color: aqua;
+}
+
+.rem {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.rem1 {
+    background-color: crimson;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.parcentage {
+    background-color: yellowgreen;
+    width: 50%;
+    height: 300px;
+}
+
+.parcent {
+    background-color: rgb(70, 35, 86);
+    width: 50%;
+    height: 200px;
+}
+
+.vhvwParemnt {
+    background-color: violet;
+    width: 50vw;
+    height: 400px;
+
+}
+
+.vhvw {
+    width: 70vw;
+    height: 35vh;
+    background-color: black;
+}

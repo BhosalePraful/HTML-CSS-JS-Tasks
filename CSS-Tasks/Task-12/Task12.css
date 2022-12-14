@@ -1,0 +1,146 @@
+.contener1 {
+    height: 10rem;
+    background-color: tomato;
+    display: flex;
+}
+
+.box {
+    width: 8rem;
+    height: 8rem;
+    background-color: aquamarine;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contener2 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+
+.contener3 {
+    height: 10rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contener4 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contener5 {
+    height: 10rem;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contener6 {
+    height: 10rem;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contener7 {
+    height: 10rem;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contener8 {
+    height: 50rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contener9 {
+    height: 50rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.contener10 {
+    height: 50rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contener11 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.contener12 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+}
+
+.contener13 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contener14 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contener15 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contener16 {
+    height: 30rem;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contener17 {
+    height: 20rem;
+    background-color: tomato;
+    display: flex;
+}
+
+.box1 {
+    order: 3;
+}
+
+.box2 {
+    order: 1;
+}
+
+.box3 {
+    order: 2;
+}

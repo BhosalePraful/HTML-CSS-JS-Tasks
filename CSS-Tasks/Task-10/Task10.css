@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    background-color: rgb(165, 243, 217);
+}
+
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+#para {
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.red {
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    position: relative;
+    z-index:1;
+}
+
+.black {
+    height: 10rem;
+    width: 10rem;
+    background-color: aliceblue;
+    margin: -5rem 0 0 5rem;
+
+    /* position: relative;
+    z-index: 0; */
+}
+#Dimentions{
+    background-color: beige;
+    min-width: 1rem;
+    max-width: 100rem;
+}
+#heading{
+    display: inline;
+    background-color: bisque;
+}
+#Facebook{
+    background-color: rgb(163, 194, 63);
+    height: 5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+#Microsoft{
+    display: inline-block;
+    background-color: rgb(242, 197, 141);
+    height: 5rem;
+    width: 5rem;
+}
+
+.position{
+    /* background-color: bisque; */
+}
+.first{
+    font-family: 'Rubik Bubbles', cursive;
+    background-color: bisque;
+    
+}
+.scond{
+    font-family: 'Rubik Bubbles', cursive;
+    background-color: bisque;
+    position: relative;
+}
+#btn{
+    background-color:rgb(190, 116, 20) ;
+    color: white;
+    font-weight: 600;
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 2rem;
+    left: 78rem;
+}
+
+#btn1{
+    background-color: rgb(190, 116, 20);
+    color: white;
+    font-weight: 600;
+    border-radius: 1rem;
+
+    position: relative;
+    bottom:7.9rem;
+    left: 78rem;
+}
+
+#circle{
+    display: inline-block;
+    background-color: tomato;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    position: fixed;
+}
+
+marquee{
+    background-color: rgb(48, 161, 109);
+    color: white;
+    position: sticky;
+    top: 1px;
+    z-index: 10;
+}
